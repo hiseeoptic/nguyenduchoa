@@ -22,10 +22,13 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="#san-pham" className="text-sm text-white/60 hover:text-white transition-colors">
-              Sản phẩm
+            <Link href="/shop" className="text-sm text-white/60 hover:text-white transition-colors">
+              Shop
             </Link>
-            <Link href="#affiliate" className="text-sm text-white/60 hover:text-white transition-colors">
+            <Link href="/blog" className="text-sm text-white/60 hover:text-white transition-colors">
+              Blog
+            </Link>
+            <Link href="/affiliate" className="text-sm text-white/60 hover:text-white transition-colors">
               Affiliate
             </Link>
             <Link href="#gia-ca" className="text-sm text-white/60 hover:text-white transition-colors">
@@ -72,10 +75,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden border-t border-white/5 bg-black/60 backdrop-blur-xl">
           <div className="px-4 py-4 space-y-3">
-            <Link href="#san-pham" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
-              Sản phẩm
+            <Link href="/shop" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
+              Shop
             </Link>
-            <Link href="#affiliate" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
+            <Link href="/blog" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
+              Blog
+            </Link>
+            <Link href="/affiliate" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
               Affiliate
             </Link>
             <Link href="#gia-ca" onClick={() => setIsOpen(false)} className="block text-sm text-white/70 hover:text-white py-2">
