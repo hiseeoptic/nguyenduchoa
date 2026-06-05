@@ -1,13 +1,13 @@
 const products = [
   {
-    name: "VeoFlow",
+    name: "FlowVeo",
     tagline: "Tạo video AI chuyên nghiệp",
     description:
       "Tạo video chất lượng cao từ script, hình ảnh và âm thanh bằng AI. Phù hợp cho content creator và marketer.",
     icon: "🎬",
     color: "from-purple-600 to-blue-600",
     features: ["Text to Video", "AI Script Generator", "Auto Subtitle"],
-    url: "https://veoflow.app",
+    url: "https://flowveo.nguyenduchoa.com",
     badge: "Hot",
   },
   {
@@ -18,7 +18,7 @@ const products = [
     icon: "✍️",
     color: "from-blue-600 to-cyan-600",
     features: ["SEO Content", "Social Media Posts", "Email Templates"],
-    url: "https://thansohoc.com",
+    url: "https://thansohoc.nguyenduchoa.com",
     badge: null,
   },
   {
@@ -33,14 +33,14 @@ const products = [
     badge: null,
   },
   {
-    name: "Gen Image",
+    name: "AI Studio",
     tagline: "Tạo hình ảnh AI đỉnh cao",
     description:
       "Tạo hình ảnh nghệ thuật, ảnh sản phẩm, banner marketing với AI. Hàng trăm phong cách khác nhau.",
     icon: "🎨",
     color: "from-pink-600 to-rose-600",
     features: ["Text to Image", "Image to Image", "Style Transfer"],
-    url: "https://genimage.ai",
+    url: "https://studio.nguyenduchoa.com",
     badge: "Mới",
   },
   {
@@ -55,14 +55,14 @@ const products = [
     badge: null,
   },
   {
-    name: "WebVinaLink",
-    tagline: "Quản lý link thông minh",
+    name: "SucKhoeChudong",
+    tagline: "Nội dung sức khoẻ & VinaLink",
     description:
-      "Rút gọn link, tạo trang bio, theo dõi click và phân tích traffic. Công cụ không thể thiếu cho marketer.",
+      "Nền tảng nội dung sức khoẻ chủ động kết hợp quản lý link thông minh. Theo dõi click và phân tích traffic.",
     icon: "🔗",
     color: "from-indigo-600 to-violet-600",
-    features: ["Link Shortener", "Bio Page", "Analytics"],
-    url: "https://webvinalink.com",
+    features: ["Link Shortener", "Health Content", "Analytics"],
+    url: "https://suckhoechudong.nguyenduchoa.com",
     badge: null,
   },
 ];

@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const products = [
-  { name: "VeoFlow", href: "https://veoflow.app" },
-  { name: "ThansOhoc", href: "https://thansohoc.com" },
-  { name: "Content AI Writer", href: "https://contentaiwriter.com" },
-  { name: "Gen Image", href: "https://genimage.ai" },
-  { name: "Storyboard AI", href: "https://storyboardai.app" },
-  { name: "WebVinaLink", href: "https://webvinalink.com" },
+  { name: "FlowVeo", href: "https://flowveo.nguyenduchoa.com" },
+  { name: "ThansOhoc", href: "https://thansohoc.nguyenduchoa.com" },
+  { name: "Content AI Writer", href: "#" },
+  { name: "AI Studio (Gen Image)", href: "https://studio.nguyenduchoa.com" },
+  { name: "Storyboard AI", href: "#" },
+  { name: "SucKhoeChudong (VinaLink)", href: "https://suckhoechudong.nguyenduchoa.com" },
 ];
 
 const links = {
