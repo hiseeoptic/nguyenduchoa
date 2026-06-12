@@ -121,10 +121,10 @@ export default function Footer() {
             © 2024 nguyenduchoa.com · Made with ❤️ in Vietnam
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-white/30 hover:text-white/60 text-sm transition-colors">
+            <Link href="/terms" className="text-white/30 hover:text-white/60 text-sm transition-colors">
               Điều khoản sử dụng
             </Link>
-            <Link href="#" className="text-white/30 hover:text-white/60 text-sm transition-colors">
+            <Link href="/privacy" className="text-white/30 hover:text-white/60 text-sm transition-colors">
               Chính sách bảo mật
             </Link>
           </div>
