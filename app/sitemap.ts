@@ -3,7 +3,7 @@ import { products } from "@/lib/products";
 import { posts } from "@/lib/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://nguyenduchoa.com";
+  const base = "https://aiglobal.vn";
   const now = new Date();
 
   // products and posts are imported directly as arrays

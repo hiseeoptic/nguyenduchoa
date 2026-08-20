@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nguyễn Đức Hoa — Hệ sinh thái AI & Marketing số",
     description: "Bộ công cụ AI giúp bạn tạo nội dung, hình ảnh, video và kinh doanh online hiệu quả",
-    url: "https://nguyenduchoa.com",
-    siteName: "NguyenDucHoa.com",
+    url: "https://aiglobal.vn",
+    siteName: "aiglobal.vn",
     locale: "vi_VN",
     type: "website",
   },

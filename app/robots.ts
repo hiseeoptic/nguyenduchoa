@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://nguyenduchoa.com/sitemap.xml",
+    sitemap: "https://aiglobal.vn/sitemap.xml",
   };
 }
